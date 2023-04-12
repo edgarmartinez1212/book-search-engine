@@ -1,27 +1,11 @@
 # 21 MERN: Book Search Engine
 
-## Your Task
-
-Your assignment this week is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
-
-This week, you’ll take starter code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
-
-To complete the assignment, you’ll need to do the following:
-
-1. Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
-
-2. Modify the existing authentication middleware so that it works in the context of a GraphQL API.
-
-3. Create an Apollo Provider so that requests can communicate with an Apollo Server.
-
-4. Deploy your application to Heroku with a MongoDB database using MongoDB Atlas. Use the [Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) walkthrough for instructions.
-
 ## User Story
 
 ```md
-AS AN avid reader
-I WANT to search for new books to read
-SO THAT I can keep a list of books to purchase
+AS a bookcamp student who wants to create a book search website
+I WANT to implement a search bar that allows users to search for books
+SO THAT they can keep a list of books to purchase
 ```
 
 ## Acceptance Criteria
@@ -96,63 +80,4 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ## Links
 ### GitHup Repo - https://github.com/edgarmartinez1212/book-search-engine
-### Heroku - 
-
-
-### Technical Acceptance Criteria: 40%
-
-- Satisfies all of the preceding acceptance criteria plus the following:
-
-  - Has an Apollo Server that uses GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
-
-  - Use an Apollo Server and apply it to the Express.js server as middleware.
-
-  - Include schema settings for resolvers and typeDefs as outlined in the Challenge instructions.
-
-  - Modify the existing authentication middleware to work in the context of a GraphQL API.
-
-  - Use an Apollo Provider so that the application can communicate with the Apollo Server.
-
-  - Application must be deployed to Heroku.
-
-### Deployment: 32%
-
-- Application deployed at live URL.
-
-- Application loads with no errors.
-
-- Application GitHub URL submitted.
-
-- GitHub repository contains application code.
-
-### Application Quality: 15%
-
-- User experience is intuitive and easy to navigate.
-
-- User interface style is clean and polished.
-
-- Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-- Repository has a unique name.
-
-- Repository follows best practices for file structure and naming conventions.
-
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-- Repository contains multiple descriptive commit messages.
-
-- Repository contains high-quality README file with description, screenshot, and link to the deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-- The URL of the functional, deployed application.
-
-- The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+### Heroku - https://book-search-engine-emartinez.herokuapp.com/
